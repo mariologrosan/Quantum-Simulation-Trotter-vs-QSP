@@ -1,5 +1,7 @@
 # BCAM Internship Project: Quantum Simulation (Trotter vs QSP) under Topology Constraints
 
+🚧 Work in Progress: This project is currently under active development. 
+
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Qiskit](https://img.shields.io/badge/qiskit-latest-purple)
 ![License](https://img.shields.io/badge/license-MIT-green) This repository contains the code developed during my research internship at the **BCAM (Basque Center for Applied Mathematics)** (2026). 
