@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qusquare-benchmarking"
+version = "1.0.0"
+description = "Hardware-aware benchmarking framework for TFIM: Trotter-Suzuki vs. QSP/LCU."
+authors = [
+    { name = "BCAM Research Internship" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "qiskit>=1.0",
+    "matplotlib",
+    "plotly"
+]
+
+[tool.setuptools]
+packages = ["algorithms", "dynamics", "topology"]
